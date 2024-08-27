@@ -1,4 +1,3 @@
-
 #1.
 select CONCAT(first_name, ' ', last_name) AS Customer_name, customer_id, country
 FROM
