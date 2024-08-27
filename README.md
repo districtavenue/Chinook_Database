@@ -1,6 +1,4 @@
-# SUBJECT: SQL PROJECT  
-
-### DESCRIPTION:
+# DESCRIPTION
 
 I have copied below my SQL queries to demonstrate my competence. I am using an open-source database called Chinook, which is modeled as a media store containing tables like Album, Artist,
 and business transactions such as Invoices and Customers. This open-source database, designed for SQL practice to showcase skill levels, was downloaded from GitHub as proof of competence."
@@ -10,7 +8,7 @@ and business transactions such as Invoices and Customers. This open-source datab
 I am using PostgreSQL to solve the questions from this database. 
 
 
-### Questions are like: 
+### QUESTIONS FOR THIS PROJECT 
 
 1. Provide a query showing Customers (just their full names, customer ID, and country) who are not in the US.
 2. Provide a query only showing the Customers from Brazil.
@@ -33,9 +31,11 @@ I am using PostgreSQL to solve the questions from this database.
 
 
 ### Data Analysis 
-Here below SQL queries I have entered to resolve questions on top. 
+Here below SQL queries I have entered to resolve questions on top. Please find sql file attached. 
 
 ``` SQL
+
+#1.
 
 select CONCAT(first_name, ' ', last_name) AS Customer_name, customer_id, country
 FROM
@@ -43,123 +43,6 @@ Customer
 
 WHERE NOT country ='USA';
 
+```
 
-
-
-
-
-
-Select * from customer
-Where Country LIKE=’Brazil’;
-
-
-Invoice id, customer name and billing date and billing country
-
-Inner joins. 
-
-
-4. Provide a query showing only the Employees who are Sales Agents.
-select *from employee
-
-Where title LIKE=%Sales Support Agent%;
-
-5. Provide a query showing a unique list of billing countries from the Invoice table.
-
-Select billing_country
-From invoice;
-	
-
-
-
-
-
-
-
-6. Provide a query showing the invoices of customers who are from Brazil.
-
-Select
-billing_country,
-COUNT(customer_id) as Customer_Brazil
-From
-invoice
-
-Group by 
-billing_country;
-
-
-7. Provide a query that shows the invoices associated with each sales agent. The resultant table should include the Sales Agent's full name.
-
-
-9. How many Invoices were there in 2022 and 2020? What are the respective total sales for each of those years?
-
-Select 
-	invoice_date, sum(invoice_id), sum(total) as Total_of_sales,
-From 
-	invoice
-Where invoice_date BEWEEN 2020-01-01 and 2022-01-01
-ORDER BY 
-	invoice_date DESC
-GROUP BY 
-invoice_date;
-
-19. Which sales agent made the most in sales in 2020?
-
-
-
-18. Provide a query that shows total sales made by each sales agent.
-
-select 
-
-	e.employee_id,e.title,sum(i.total) as Sales_by_agent
-
-from 
-employee e 
-LEFT JOIN	
-    invoice i on   
-    e.employee_id=i.invoice_id
-GROUP BY 
-	e.title,e.employee_id    
-ORDER BY
-	Sales_by_agent;
-
-With their full name we need subqueries with joins.
-
-
-19. Which sales agent made the most in sales in 2021?
-
-select 
-
-	e.employee_id,e.title,sum(i.total) as Sales_by_agent
-
-from 
-
-	employee e 
-LEFT JOIN	
-    invoice i on   
-    e.employee_id=i.invoice_id
-    
-
-WHERE 
-	invoice_date BETWEEN ‘2021-01-01T00:00:00.000Z’ AND 
-‘2021-12-26T00:00:00.000Z’;
-
-GROUP BY 
-	e.title,e.employee_id;
-
-
-
- 
-20.Provide a query that shows the # of customers assigned to each sales agent.
-select *from employee;
-select *from customer;
-
-select e.title,CONCAT(c.first_name, ' ', c.last_name) AS Customer_name
-
-
-from 
-	employee e 
-
-LEFT JOIN 
-	customer c on e.employee_id=c.customer_id;
-![image](https://github.com/user-attachments/assets/a7864c83-add0-4301-9043-70c0abfa5343)
 
