@@ -1,13 +1,12 @@
 # DESCRIPTION
 
-I have copied below my SQL queries to demonstrate my competence. I am using an open-source database called Chinook, whichis modeled as a media store containing tables like Album, Artist,
-and business transactions such as Invoices and Customers. This open-source database that I have downloaded on github. ( link attached). this would shouwcase how i can interact with real busines scenario cases, this would involve to
-manage actual sales numbers and demonstrate how I can analyze and produce some valuable insight for the company. 
+I have provided my SQL queries below to demonstrate my competence. I am using an open-source database called Chinook, which is modeled after a media store. This database contains tables such as `Album`, `Artist`, and business transactions like `Invoice` and `Customer`. 
 
+I downloaded this open-source database from GitHub (link attached). This showcase demonstrates how I can interact with real business scenarios, manage actual sales data, and produce valuable insights for the company.
 
 ### Tools
-I am using PostgreSQL to solve the questions from this database. Throught this project, i will use basic and intermediate level like join, aggregate function, wildcard and more. There are 27 questions but i have picked 15 of them cause some are not 
-matching (ne corresponds pas ) with the database. 
+I am using PostgreSQL to solve the questions from this database. Throughout this project, I will use basic and intermediate levels like Joins, Aggregate function, wildcard,s and more.
+There are 27 questions in total, but I have selected 15 of them, as some do not correspond to the database (example **dates**)
 
 
 ### QUESTIONS FOR THIS PROJECT 
@@ -27,10 +26,10 @@ matching (ne corresponds pas ) with the database.
 20. Which sales agent made the most in sales in 2010?
 21. Which sales agent made the most in sales over all?
 22. Provide a query that shows the # of customers assigned to each sales agent.
-23.Provide a query that shows the total sales per country. Which country's customers spent the most?
-24.Provide a query that shows the most purchased track of 2013.
-25.Provide a query that shows the top 5 most purchased tracks over all.
-26.Provide a query that shows the top 3 best selling artists.
+23. Provide a query that shows the total sales per country. Which country's customers spent the most?
+24. Provide a query that shows the most purchased track of 2013.
+25. Provide a query that shows the top 5 most purchased tracks over all.
+26. Provide a query that shows the top 3 best selling artists.
 
 
 
