@@ -21,17 +21,17 @@ matching (ne corresponds pas ) with the database.
 7. Provide a query that shows the invoices associated with each sales agent. The resultant table should include the Sales Agent's full name.
 8. Provide a query that shows the Invoice Total, Customer name, Country and Sale Agent name for all invoices and customers.
 9. How many Invoices were there in 2009 and 2011? What are the respective total sales for each of those years?
-17.Provide a query that shows all Invoices but includes the # of invoice line items.
-18.Provide a query that shows total sales made by each sales agent.
-19.Which sales agent made the most in sales in 2009?
-20.Which sales agent made the most in sales in 2010?
-21.Which sales agent made the most in sales over all?
-22.Provide a query that shows the # of customers assigned to each sales agent.
+17. Provide a query that shows all Invoices but includes the # of invoice line items.
+18. Provide a query that shows total sales made by each sales agent.
+19. Which sales agent made the most in sales in 2009?
+20. Which sales agent made the most in sales in 2010?
+21. Which sales agent made the most in sales over all?
+22. Provide a query that shows the # of customers assigned to each sales agent.
 23.Provide a query that shows the total sales per country. Which country's customers spent the most?
 24.Provide a query that shows the most purchased track of 2013.
 25.Provide a query that shows the top 5 most purchased tracks over all.
 26.Provide a query that shows the top 3 best selling artists.
-27.Provide a query that shows the most purchased Media Type.
+
 
 
 
