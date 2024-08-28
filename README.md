@@ -4,6 +4,8 @@ I have provided my SQL queries below to demonstrate my competence. I am using an
 
 I downloaded this open-source database from GitHub (link attached). This showcase demonstrates how I can interact with real business scenarios, manage actual sales data, and produce valuable insights for the company.
 
+[Attached File here](https://github.com/lerocha/chinook-database/tree/master)
+
 ### Tools
 I am using PostgreSQL to solve the questions from this database. Throughout this project, I will use basic and intermediate levels like Joins, Aggregate function, wildcard,s and more.
 There are 27 questions in total, but I have selected 15 of them, as some do not correspond to the database (example **dates**)
