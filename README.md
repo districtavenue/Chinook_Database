@@ -6,7 +6,8 @@ manage actual sales numbers and demonstrate how I can analyze and produce some v
 
 
 ### Tools
-I am using PostgreSQL to solve the questions from this database. 
+I am using PostgreSQL to solve the questions from this database. Throught this project, i will use basic and intermediate level like join, aggregate function, wildcard and more. There are 27 questions but i have picked 15 of them cause some are not 
+matching (ne corresponds pas ) with the database. 
 
 
 ### QUESTIONS FOR THIS PROJECT 
@@ -20,7 +21,6 @@ I am using PostgreSQL to solve the questions from this database.
 7. Provide a query that shows the invoices associated with each sales agent. The resultant table should include the Sales Agent's full name.
 8. Provide a query that shows the Invoice Total, Customer name, Country and Sale Agent name for all invoices and customers.
 9. How many Invoices were there in 2009 and 2011? What are the respective total sales for each of those years?
-
 
 
 
